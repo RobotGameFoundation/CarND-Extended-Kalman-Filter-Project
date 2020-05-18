@@ -32,6 +32,8 @@ string hasData(string s) {
 int main() {
   uWS::Hub h;
 
+  std::cout<<"your text goes here"<<std::endl;
+
   // Create a Kalman Filter instance
   FusionEKF fusionEKF;
 
